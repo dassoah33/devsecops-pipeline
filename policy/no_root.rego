@@ -1,7 +1,5 @@
 package main
 
-import future.keywords.in
-
 # Refuser les conteneurs qui tournent en tant que root
 deny[msg] {
     input.kind == "Deployment"
